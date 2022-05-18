@@ -1,8 +1,8 @@
 import Web3 from "web3";
 import AirTokenBuild from "./AirToken.json";
 
-let smartContractAddresses = "0xdE84Be91e69ec7c87D2d6a4612653e6f1E2C1b5b";
-let adminAddress = "0x0946d0549A8f1e5853d0e6c2154E08562244da09";
+let smartContractAddresses = "0x7d2C57fC2e970374b135e6567b97B10E3E208DF7";
+let adminAddress = "0xa09b260809915dA08f831A53da431Aa3c1d03618";
 let selectedAccount;
 let tokenContract;
 let isInitialized = false;
