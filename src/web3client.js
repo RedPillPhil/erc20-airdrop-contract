@@ -42,7 +42,7 @@ export const init = async () => {
     smartContractAddresses
   );
 
-  if (!((await web3.eth.net.getNetworkType()) === "sherpaX")) {
+  if (!((await web3.eth.net.getNetworkType()) === "SHERPAX")) {
     alert(
       "You are not on Ropsten Network. Please switch metamask to Ropsten network then press ok to continue!"
     );
